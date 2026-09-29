@@ -9,4 +9,6 @@ Do not commit live tokens, OAuth refresh tokens, account identifiers, private UR
 
 Keep skills narrowly scoped, use lowercase hyphenated folder names, and verify both files before publishing.
 
+The root `README.md` lists each published skill with links to its instructions and setup manual. Keep that list aligned with the folders under `skills/`.
+
 The `google-drive` skill covers sharing one existing Drive file with a named recipient. Its manual explains the required account connection; the skill document itself does not grant Drive access.
