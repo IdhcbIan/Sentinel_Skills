@@ -1,0 +1,13 @@
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials/
+secrets/
+
+# Local editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
